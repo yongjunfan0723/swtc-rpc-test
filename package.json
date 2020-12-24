@@ -1,0 +1,22 @@
+{
+  "name": "swtc-rpc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yongjunfan0723/swtc-rpc-test.git"
+  },
+  "author": "yongjunfan0723",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yongjunfan0723/swtc-rpc-test/issues"
+  },
+  "homepage": "https://github.com/yongjunfan0723/swtc-rpc-test#readme",
+  "dependencies": {
+    "@swtc/rpc": "^1.0.2"
+  }
+}
