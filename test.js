@@ -45,7 +45,7 @@ const main = async() => {
    * 获取帐本列表
    * params IRpcLedgerOptions
    */
-  const ledger = await remote.rpcLedger({ledger_index: "current", ledger_hash: "1121194D1955C25EA44165EE53AC64708FE27ABCFDAFA913FCCD218F716463C8"});
+  const ledger = await remote.rpcLedger({ledger_index: "current"});
   console.log("帐本列表:", ledger);
 
   /**
@@ -80,7 +80,7 @@ const main = async() => {
    * 从特定帐本获取事务内容
    * params IRpcTxEntryOptions
    */
-  const tx1 = await remote.rpcTxEntry({ledger_hash:"D56B1A2527F39512773348F0F367C101CA6941EC32E3EB757533FFFA8EB9EB7E", tx_hash: "0A2F2D4E139B726E84690711992148BF04E2A8C4FE6339D2F040F86FC1ABBB9B"});
+  const tx1 = await remote.rpcTxEntry({ledger_hash:"A14A0BBDB70A1720B0B0FDB3AF4ACD53BAF44E8070D89499A4EEEEAB94591FC8", tx_hash: "08561200A54373DD86E29410081E84C148798AB7B2E502EA8FCD077B18DE1520"});
   console.log("特定事务内容:", tx1);
 
   /**
