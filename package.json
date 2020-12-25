@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yongjunfan0723/swtc-rpc-test#readme",
   "dependencies": {
-    "@swtc/rpc": "^1.0.2"
+    "@swtc/rpc": "^1.0.2",
+    "bignumber.js": "^9.0.1"
   }
 }
